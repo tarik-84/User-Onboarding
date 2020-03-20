@@ -1,0 +1,52 @@
+
+
+form {
+  display: flexbox;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+input, button {
+  height: 5vh;
+  padding: 5px;
+  width: 50%;
+  text-align: left;
+}
+
+button {
+  margin-top: 10px;
+  width: 8%;
+  font-size: large;
+  text-align: center;
+}
+  button:hover {
+    background-color: rgb(108, 231, 225);
+    color: white;
+  }
+
+label {
+  
+  text-align: left;
+  margin: 1%;
+}
+
+.tos {
+  height: 25px;
+  width: 25px;
+  
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+  }
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
